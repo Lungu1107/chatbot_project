@@ -114,3 +114,10 @@ Your contributions to enhance and improve this chatbot are welcome. Whether it's
 ## Acknowledgements
 
 - A special thanks to the open-source community and contributors who have made tools like TensorFlow, NLTK, and Hugging Face's Transformers available for public use.
+
+## Contact
+For questions, suggestions, or contributions, please contact:
+
+Victor Lungu,
+lungu1107@gmail.com,
+www.linkedin.com/in/victor-lungu-398372238
