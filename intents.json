@@ -1,0 +1,298 @@
+{
+  "intents": [
+    {
+      "tag": "inquiry_karate_classes",
+      "patterns": [
+        "I want to start karate, what should I know?",
+        "Tell me about the karate training here",
+        "I'm thinking of beginning karate lessons, any advice?",
+        "Can you give me some info on karate classes?",
+        "Details about the karate class, please?"
+      ],
+      "responses": [
+        "Our karate classes are great for beginners and advanced students alike. We focus on both technique and physical fitness.",
+        "Karate training at our club includes a blend of traditional forms and practical self-defense. It's both fun and challenging!"
+      ],
+      "emotion_responses": {
+        "sadness": ["I'm sorry to hear you're feeling down. Karate is not only about physical strength, but it's also a journey in mental resilience."],
+        "joy": ["Joyful spirits are a perfect match for the energy in our karate classes! You'll find the environment uplifting and motivating."]
+      }
+    },
+    {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! Looking for information on martial arts?"],
+      "emotion_responses": {
+        "love": ["Hello! It's heartwarming to see your enthusiasm. How can I assist you today?"],
+        "surprise": ["Hi there! Seems like you're full of surprises today. How can I help you?"]
+      }
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "I'm leaving", "Catch you later"],
+      "responses": ["Goodbye! Feel free to return if you have more questions.", "Bye! Have a great day ahead.", "See you later! Don't hesitate to visit us again."],
+      "emotion_responses": {
+        "anger": ["Goodbye. Remember, martial arts can be a great way to channel your energy and find balance."],
+        "fear": ["Farewell, and remember, facing our fears is the first step in martial arts. See you soon!"]
+      }
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "That's helpful", "Thanks for the help"],
+      "responses": ["You're welcome! If you have more questions, just ask.", "No problem at all, glad I could help!", "Always happy to assist! Let me know if there's anything else."],
+      "emotion_responses": {
+        "joy": ["You're welcome! Your joyful energy is contagious. Glad to help!"],
+        "surprise": ["Glad I could help! It's always a pleasant surprise to assist someone as grateful as you."]
+      }
+    },
+    {
+      "tag": "general_inquiry",
+      "patterns": [
+        "Can you help me with some information?",
+        "I need some details about your club",
+        "What can you tell me about Brave Heart?",
+        "I'm looking for information about your martial arts training",
+        "Could you provide some general info?"
+      ],
+      "responses": [
+        "Sure, I can help with that. What specific information are you looking for about Brave Heart Martial Arts Club?",
+        "I'd be happy to provide information about our club. What do you want to know more about?"
+      ],
+      "emotion_responses": {
+        "anger": ["I understand you might be frustrated. Let me help you with the information you need about our club."],
+        "fear": ["No need to feel overwhelmed. I'm here to provide all the information you need about our club."]
+      }
+    },
+    {
+      "tag": "class_duration",
+      "patterns": [
+        "How long does each class last?",
+        "What are the timings for your classes?",
+        "Can you tell me the duration of the training sessions?",
+        "How long are the martial arts classes?",
+        "Duration and schedule of the classes?"
+      ],
+      "responses": [
+        "Each of our martial arts classes is about an hour long. We have various timings throughout the week to fit your schedule.",
+        "Our classes typically run for 60 minutes. You can choose from different time slots as per your convenience."
+      ],
+      "emotion_responses": {
+        "love": ["It's wonderful to see your love for martial arts. Each class is an hour of energizing training."],
+        "surprise": ["Surprised to hear our classes are just an hour? They're packed with action and learning!"]
+      }
+    },
+    {
+      "tag": "equipment_query",
+      "patterns": [
+        "What equipment do I need for the classes?",
+        "Do I have to bring any gear for training?",
+        "Is there any specific equipment required?",
+        "What gear should I use for martial arts?",
+        "Do you provide the equipment or should I bring my own?"
+      ],
+      "responses": [
+        "We provide all the necessary equipment for training. However, you're welcome to bring your own gear if you prefer.",
+        "No need to bring any equipment, we have everything you'll need for your martial arts training."
+      ],
+      "emotion_responses": {
+        "joy": ["Your enthusiasm is great! Don't worry about equipment; we've got everything you need for an exciting class."],
+        "sadness": ["Feeling down? Martial arts could be a perfect lift. And don't worry, we provide all the necessary gear."]
+      }
+    },
+    {
+      "tag": "instructor_experience",
+      "patterns": [
+        "How experienced are your instructors?",
+        "Can you tell me about your trainers' background?",
+        "What qualifications do your instructors have?",
+        "Experience and skills of your martial arts teachers?",
+        "Who will be teaching the classes and what's their expertise?"
+      ],
+      "responses": [
+        "Our instructors are highly experienced and certified, with years of practice and teaching in various martial arts.",
+        "The trainers at our club are seasoned martial artists, each bringing a wealth of knowledge and skills."
+      ],
+      "emotion_responses": {
+        "fear": ["There's nothing to fear about our instructors. They're not only skilled, but also incredibly supportive and patient."],
+        "anger": ["If you're feeling agitated, martial arts could be a great outlet. Our experienced instructors can guide you through this journey."]
+      }
+    },
+    {
+      "tag": "safety_measures",
+      "patterns": [
+        "What safety measures do you have in place?",
+        "How do you ensure safety during training?",
+        "Are there any precautions taken for beginners?",
+        "What steps do you take to prevent injuries?",
+        "How safe are the martial arts classes?"
+      ],
+      "responses": [
+        "Safety is our top priority. We have comprehensive measures in place, including proper gear, trained staff, and safe training protocols.",
+        "We ensure a safe training environment with qualified instructors, safety gear, and clear guidelines for all participants."
+      ],
+      "emotion_responses": {
+        "surprise": ["Surprised at how seriously we take safety? It's our top priority to ensure a safe and enjoyable experience for everyone."],
+        "love": ["We love that you're concerned about safety. Rest assured, we take all necessary steps to provide a secure environment."]
+      }
+    },
+    {
+      "tag": "membership_fees",
+      "patterns": [
+        "How much does it cost to join?",
+        "What are the membership fees?",
+        "Can you tell me about the pricing for classes?",
+        "Are there different payment plans available?",
+        "What's the cost for martial arts training?"
+      ],
+      "responses": [
+        "Our membership fees are competitive and offer great value. We have several plans to suit different needs and budgets.",
+        "Pricing varies based on the program and frequency of classes. We have flexible payment options to accommodate everyone."
+      ],
+      "emotion_responses": {
+        "anger": ["We understand that pricing can be a concern. Rest assured, our fees are competitive and we offer flexible payment plans."],
+        "surprise": ["Surprised by our fees? We strive to make martial arts accessible to everyone with a variety of pricing options."]
+      }
+    },
+    {
+      "tag": "class_environment",
+      "patterns": [
+        "What's the atmosphere like in your classes?",
+        "Can you describe the class environment?",
+        "What kind of culture do you foster in training?",
+        "Is the training environment competitive or supportive?",
+        "How would you describe the vibe in your classes?"
+      ],
+      "responses": [
+        "We pride ourselves on a friendly and supportive atmosphere, ideal for learning and personal growth.",
+        "Our classes have a welcoming and inclusive environment. We encourage both competition and mutual support."
+      ],
+      "emotion_responses": {
+        "joy": ["You'll love the positive and energetic atmosphere in our classes! It's a great place to learn and grow."],
+        "fear": ["Feeling apprehensive? Don't worry, our supportive environment is perfect for beginners and seasoned practitioners alike."]
+      }
+    },
+    {
+      "tag": "nutrition_guidance",
+      "patterns": [
+        "Do you offer any advice on nutrition?",
+        "Can I get help with a diet plan for training?",
+        "What kind of nutritional support do you provide?",
+        "Is there a recommended diet for martial arts students?",
+        "How important is nutrition in martial arts training?"
+      ],
+      "responses": [
+        "Nutrition is key in martial arts. We offer guidance on proper diet plans to complement your training regimen.",
+        "Our instructors can provide you with nutritional advice that enhances your physical performance and overall health."
+      ],
+      "emotion_responses": {
+        "love": ["Love to see you taking a holistic approach to martial arts! Nutrition is a crucial part of your training regimen."],
+        "sadness": ["Feeling down? A balanced diet can improve both your physical health and mood, boosting your martial arts performance."]
+      }
+    },
+    {
+      "tag": "class_variety",
+      "patterns": [
+        "What types of martial arts classes do you offer?",
+        "Are there specialized classes for different martial arts?",
+        "Can I learn different styles of martial arts?",
+        "Do you offer classes in both traditional and modern martial arts?",
+        "What's the range of martial arts training available?"
+      ],
+      "responses": [
+        "We offer a wide range of martial arts classes, from traditional styles like Karate and Kung Fu to modern disciplines.",
+        "Our club specializes in various martial arts forms. You can choose to learn one style or explore multiple disciplines."
+      ],
+      "emotion_responses": {
+        "surprise": ["Surprised by our variety? We've got everything from traditional Karate to modern martial arts forms!"],
+        "fear": ["Feeling overwhelmed by the choices? Our instructors can help guide you to the martial art form that suits you best."]
+      }
+    },
+    {
+      "tag": "competition_training",
+      "patterns": [
+        "Do you prepare students for competitions?",
+        "Can I get competition-level training?",
+        "What's the approach for training students for tournaments?",
+        "How can I participate in martial arts competitions through your club?",
+        "Is there specialized training for competitive martial arts?"
+      ],
+      "responses": [
+        "Yes, we offer specialized training for students aiming to compete. Our coaches can prepare you for various levels of tournaments.",
+        "Our competition training program is rigorous and tailored to prepare students for martial arts tournaments."
+      ],
+      "emotion_responses": {
+        "joy": ["Excited about competing? Our training will harness that energy to prepare you for tournaments."],
+        "sadness": ["Even if you're feeling low, our competition training can be a great way to regain confidence and focus."]
+      }
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "What classes do you have?",
+        "What is the schedule for classes?",
+        "Do you have any classes during the weekend?",
+        "Can you tell me the class timings?"
+      ],
+      "responses": [
+        "We have a variety of classes throughout the week, including weekends. Check our website for the full schedule.",
+        "Our classes are scheduled to accommodate everyone, with options available on weekdays and weekends."
+      ],
+      "emotion_responses": {
+        "joy": ["Glad to see your enthusiasm! We've got classes all week, even on weekends to suit your schedule."],
+        "anxiety": ["Worried about fitting classes into your busy schedule? We have flexible options, including weekend classes."]
+      }
+    },
+    {
+      "tag": "club_information",
+      "patterns": [
+        "What is the name of the club?",
+        "Can you give me some information about the club?",
+        "Tell me more about the martial arts club",
+        "I'd like to know about your club"
+      ],
+      "responses": [
+        "Our club, Brave Heart Martial Arts, is dedicated to providing the best martial arts training experience.",
+        "Brave Heart Martial Arts is the name of our club, where we focus on skill, discipline, and personal growth."
+      ],
+      "emotion_responses": {
+        "curiosity": ["You sound curious! Brave Heart Martial Arts is a place where we nurture martial arts skills and personal development."],
+        "enthusiasm": ["It's great to see your enthusiasm! Brave Heart Martial Arts is more than just a club; it's a community."]
+      }
+    },
+    {
+      "tag": "speak_with_agent",
+      "patterns": [
+        "Can I speak with an agent?",
+        "I'd like to talk to an advisor",
+        "Is it possible to discuss with a representative?",
+        "Can someone assist me with more information?"
+      ],
+      "responses": [
+        "Absolutely, I can connect you with one of our agents. Please hold for a moment.",
+        "Sure, let me transfer you to an advisor who can assist you further."
+      ],
+      "emotion_responses": {
+        "confusion": ["I see you might need detailed assistance. Let me connect you with an agent for more personalized help."],
+        "interest": ["It sounds like you're interested in more details. I'll connect you with an advisor for in-depth information."]
+      }
+    },
+    {
+      "tag": "location_info",
+      "patterns": [
+        "Where are you located?",
+        "What is the location?",
+        "Can you tell me where the club is situated?",
+        "I need to find the location of your martial arts school",
+        "Where can I find the club?"
+      ],
+      "responses": [
+        "We're located at 123 High Street, Birmigham. Easy to find and accessible by public transport.",
+        "You can find us at 123 High Street, Birmingham. It's a convenient spot with ample parking."
+      ],
+      "emotion_responses": {
+        "curiosity": ["You seem curious about our location. We're at 123 High Street, right in the center of town!"],
+        "anxiety": ["Finding us is easy, don't worry! We're located at 123 High Street, accessible by most public transport routes."]
+      }
+    }
+  ]
+}
