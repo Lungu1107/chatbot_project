@@ -45,9 +45,9 @@ Before running the chatbot, make sure to activate the virtual environment which 
 
 Once the virtual environment is activated and all dependencies are in place, you can start the chatbot:
 
-```bash
-python chatbot.py
-# This command will launch the chatbot interface where you can interact with it.
+      ```bash
+      python chatbot.py
+      # This command will launch the chatbot interface where you can interact with it.
 
 ## Customizing the Chatbot
 
@@ -65,7 +65,7 @@ To tailor the chatbot to specific needs or add new functionalities, follow these
    - After updating `intents.json`, run the `new.py` script to retrain the model with the new data. This ensures that your changes are reflected in the chatbot's behavior.
    ```bash
    python new.py
-# The script will process the updated intents and retrain the neural network model, saving the new model for the chatbot to use.
+   # The script will process the updated intents and retrain the neural network model, saving the new model for the chatbot to use.
 
 ## Test Your Changes
 
